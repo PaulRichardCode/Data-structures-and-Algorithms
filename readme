@@ -5,7 +5,7 @@ STACK DATA STRUCTURE
    if you need to view an object on top of the stack you use the peek method
 
 FIFO DATA STRUCTURE
-FIFO means first come first serve data structures.....
+FIFO means first come first serve data structures.
 
 enqueue : To add elements at end of the queue. use Offer()
 dequeue: To remove an element from the front of the queue. use Poll()
