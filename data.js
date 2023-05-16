@@ -32,7 +32,7 @@ p.then((message) => {
   .then((res) => {
     return res.json();
   })
-  .then((data) => console.log(data));
+  .then((data) => console.log(data));..
    */
 
 fetch("https://reqres.in/api/users", {
