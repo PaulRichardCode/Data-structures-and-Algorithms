@@ -1,27 +1,74 @@
-STACK DATA STRUCTURE
+// STACK DATA STRUCTURE
 
-1. stack data structures involved adding and removing data using Pop() and Push()
-2. We use push to and and Pop() to remove.
-   if you need to view an object on top of the stack you use the peek method
+// 1. stack data structures involved adding and removing data using Pop() and Push()
+// 2. We use push to and and Pop() to remove.
+// if you need to view an object on top of the stack you use the peek method
 
-FIFO DATA STRUCTURE
-FIFO means first come first serve data structures.
+// FIFO DATA STRUCTURE
+// FIFO means first come first serve data structures.
 
-enqueue : To add elements at end of the queue. use Offer()
-dequeue: To remove an element from the front of the queue. use Poll()
-peek: To get the front element without removing it.
-isEmpty: To check whether an element is present in the queue or not.
-printQueue: To print the elements present in queue.
+// enqueue : To add elements at end of the queue. use Offer()
+// dequeue: To remove an element from the front of the queue. use Poll()
+// peek: To get the front element without removing it.
+// isEmpty: To check whether an element is present in the queue or not.
+// printQueue: To print the elements present in queue.
 
-Join and Split expands strings and make use this("")
+// Join and Split expands strings and make use this("")
 
-LINKED LIST DATA STRUCTURE
-LINKED LIST is a data that stores series of Node in two parts (Data and Address)
+// LINKED LIST DATA STRUCTURE
+// LINKED LIST is a data that stores series of Node in two parts (Data and Address)
 
-1. Linked list makes use of offer() rather than push()
-2. Offer adds strings in ascending order
-   I LEARNT EVERYING FROM FREECODECAMP
+// 1. Linked list makes use of offer() rather than push()
+// 2. Offer adds strings in ascending order
+// I LEARNT EVERYING FROM FREECODECAMP
 
-LEARNING API
+// LEARNING API
 
-1. Using Parts and Paramenter after the Endpoints....
+// 1. Using Parts and Paramenter after the Endpoints....`
+
+// let p = new Promise((resolve, reject) => {
+// let a = 1 + 4;
+// if (a == 2) {
+// resolve("accepted");
+// } else {
+// reject("failed");
+// }
+// });
+
+// //catch is executed when promise is rejected
+// //then is executed when promise is accepted
+
+// p.then((message) => {
+// console.log("This is in the then" + message);
+// }).catch((message) => {
+// console.log("This is in the catch" + message);
+// });
+//**\*\***\*\*\*\***\*\***
+//**\*\***\*\*\*\***\*\***
+//FETCH
+
+// /\_ fetch("https://reqres.in/api/users", {
+// method: "POST",
+// headers: {
+// "Content-Type": "application/json",
+// },
+// body: JSON.stringify({
+// name: "User 1",
+// }),
+// })
+// .then((res) => {
+// return res.json();
+// })
+// .then((data) => console.log(data));..
+
+// fetch("https://reqres.in/api/users", {
+// method: "POST",
+// headers: {
+// "Content-Type": "application/json",
+// },
+// body: JSON.stringify({
+// name: "Paul RICHARD",
+// }),
+// })
+// .then((res) => res.json())
+// .then((data) => console.log(data));
